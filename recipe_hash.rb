@@ -12,7 +12,7 @@ perfect_10_ingredients[:slivered_almonds] = "1/4 cup"
 perfect_10_ingredients[:mini_dark_chocolate_chips] = "3/4 cup"
 perfect_10_ingredients[:olive_oil] = "1/2 cup"
 perfect_10_ingredients[:agave] = "1/4 cu"
-return perfect_10_ingredients
+ perfect_10_ingredients
 
 # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
 
