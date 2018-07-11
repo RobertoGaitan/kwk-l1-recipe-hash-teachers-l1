@@ -1,19 +1,18 @@
 #code your solutions here
 
 #1. Create a hash called `perfect_10_recipe` that has the following data:
-perfect_10_recipe = {}
-perfect_10_recipe[:almond_flour] = "2 cups"
-perfect_10_recipe[:gluten_free_whole_oats] = "1 cup"
-perfect_10_recipe[:kosher_salt] = "1/2 tea spoon"
-perfect_10_recipe[:baking_powder] = "1/2 tea spoon"
-perfect_10_recipe[:baking_soda] = "1/4 tea spoon"
-perfect_10_recipe[:xanthan_Gum] = "1/2 tea spoon"
-perfect_10_recipe[:slivered_almonds] = "1/4 cup"
-perfect_10_recipe[:mini_dark_chocolate_chips] = "3/4 cup"
-perfect_10_recipe[:olive_oil] = "1/2 cup"
-perfect_10_recipe[:agave] = "1/4 cu"
-perfect_10_recipe
-
+perfect_10_recipe = {
+  perfect_10_recipe[:almond_flour] => "2 cups",
+  perfect_10_recipe[:gluten_free_whole_oats] => "1 cup",
+  perfect_10_recipe[:kosher_salt] => "1/2 tea spoon",
+  perfect_10_recipe[:baking_powder] => "1/2 tea spoon",
+  perfect_10_recipe[:baking_soda] => "1/4 tea spoon",
+  perfect_10_recipe[:xanthan_Gum] => "1/2 tea spoon",
+  perfect_10_recipe[:slivered_almonds] => "1/4 cup",
+  perfect_10_recipe[:mini_dark_chocolate_chips] => "3/4 cup",
+  perfect_10_recipe[:olive_oil] => "1/2 cup",
+  perfect_10_recipe[:agave] => "1/4 cu"
+}
 # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
 
 #2. Write a method that simply returns (not puts) your perfect_10 hash
